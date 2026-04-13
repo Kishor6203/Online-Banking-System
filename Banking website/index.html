@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Premium Light Header -->
+    <div class="top-header">
+        📞 Call here for any enquiry "9966332255" or mail on "info@mybank.com"
+    </div>
+
+<!--=========================NAVBAR SECTION==================================================-->
+
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/union-bank-of-india-logo-png-transparent.png" alt="Bank Logo">
+    </div>
+
+    <!-- Menu -->
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown">
+            <a href="service.html" class="dropdown-toggle">
+                Services <i class="fa fa-chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a href="account.html">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        Savings Account
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="loan.html">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        Loans
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="card.html">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Bank Cards
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="investment.html">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Investments
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="insurance.html">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Insurance
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="mutual.html">
+                        <i class="fa-solid fa-coins"></i>
+                        Mutual Fund
+                    </a>
+                </li>
+            
+            </ul>
+        </li>
+
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Right Section -->
+    <div class="nav-right">
+
+        <img src="https://flagcdn.com/w40/in.png" class="flag">
+
+        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <select class="country-select">
+            <option>India</option>
+            <option>USA</option>
+            <option>London</option>
+            <option>Spain</option>
+            <option>Russia</option>
+        </select>
+
+        <select class="language-select">
+            <option>English</option>
+            <option>हिन्दी</option>
+            <option>Bangali</option>
+        </select>
+
+        <!-- LOGIN BUTTON (NO JS NEEDED) -->
+        <a href="login.html?role=user" class="login-btn">Login</a>
+
+    </div>
+
+</nav>
+
+<!-- ==============HERO SECTION================================================== -->
+
+<section class="hero">
+
+    <!-- Animated Background Shapes -->
+    <div class="hero-bg"></div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Content -->
+    <div class="hero-container">
+
+        <div class="hero-left">
+
+            <div class="badge">
+                <i class="fa-solid fa-shield-halved"></i>
+                Secure • Fast • Smart Banking
+            </div>
+
+            <h1>
+                The Future of <span>Digital Banking</span> Starts Here
+            </h1>
+
+            <p>
+                Manage your money, investments, and savings in one powerful platform built for modern life.
+            </p>
+
+            <div class="buttons">
+                <button class="btn primary">
+                    Get Started <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <button class="btn secondary">
+                    <i class="fa-solid fa-play"></i> Watch Demo
+                </button>
+            </div>
+
+            <div class="stats">
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>2M+</h3>
+                    <p>Customers</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>256-bit</h3>
+                    <p>Encryption</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h3>120+</h3>
+                    <p>Countries</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT CARD -->
+        <div class="hero-right">
+
+            <div class="card floating">
+                <h4>Account Balance</h4>
+                <h2>$128,450.00</h2>
+
+                <div class="card-row">
+                    <span><i class="fa-solid fa-arrow-up"></i> Income</span>
+                    <strong>+$12,000</strong>
+                </div>
+
+                <div class="card-row">
+                    <span><i class="fa-solid fa-arrow-down"></i> Expenses</span>
+                    <strong>-$4,200</strong>
+                </div>
+            </div>
+
+            <div class="mini-card floating2">
+                <i class="fa-solid fa-chart-line"></i>
+                <p>Live Growth Analytics</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=======================ABOUT SECTION===========================================-->
+
+<section class="about">
+
+    <div class="about-container">
+
+        <!-- LEFT IMAGE -->
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1681406610724-4e40ae8489e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJhbmslMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="banking">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-content">
+
+            <h2>About MyBank</h2>
+            <p>
+                MyBank is a Public Limited company established in the year 2021 under section 620-A of 
+                Indian Companies Act 2013. MyBank carrying on the business of a non-banking financial 
+                institution (NBFC).The company has the approval from Government Of India. The government has set up 
+                law for the security of the deposit in the company to which the cradle is legally necessary. We provide 
+                our members easy and simple financial solution at their doorstep.
+            </p>
+
+            <!-- FEATURES -->
+            <div class="about-features">
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h4>Secure Banking</h4>
+                    <p>Advanced encryption keeps your money safe.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h4>Fast Transactions</h4>
+                    <p>Instant transfers anytime, anywhere.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h4>Mobile Friendly</h4>
+                    <p>Manage your account on any device.</p>
+                </div>
+
+            </div>
+
+            <!-- BUTTON -->
+            <button class="about-btn">Learn More</button>
+
+        </div>
+    </div>
+
+</section>
+
+<!--=======================SERVICE SECTION=========================================-->
+
+<section class="services">
+
+    <div class="services-header">
+        <h2>Our Services</h2>
+        <p>We provide a wide range of banking services to meet all your financial needs.</p>
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <h3>Savings Account</h3>
+            <p>Secure and flexible savings accounts with high interest rates.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <h3>Loans</h3>
+            <p>Quick and easy loans with low interest and fast approval.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-credit-card"></i>
+            <h3>Credit Cards</h3>
+            <p>Premium cards with cashback, rewards, and global access.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Investments</h3>
+            <p>Grow your wealth with smart and secure investment plans.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Mobile Banking</h3>
+            <p>Access your account anytime with our powerful mobile app.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-globe"></i>
+            <h3>International Transfer</h3>
+            <p>Send and receive money globally with low fees.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================TRUST SECTION================================-->
+
+<section class="trust">
+
+    <div class="trust-header">
+        <h2>Why Choose Us</h2>
+        <p>Your trusted partner for secure and smart banking solutions.</p>
+    </div>
+
+    <div class="trust-container">
+
+        <div class="trust-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Top Security</h3>
+            <p>We use advanced encryption to keep your data and money safe at all times.</p>
+        </div>
+
+        <div class="trust-card">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Fast Transactions</h3>
+            <p>Experience instant transfers and real-time banking anywhere.</p>
+        </div>
+
+        <div class="trust-card">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Global Access</h3>
+            <p>Access your account from anywhere in the world without limits.</p>
+        </div>
+
+        <div class="trust-card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Our expert team is always available to assist you anytime.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================DASHBOARD SECTION============================-->
+
+<section class="dashboard">
+
+    <div class="dashboard-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="dashboard-text">
+            <h2>Smart Banking Dashboard</h2>
+            <p>
+                Track your balance, monitor transactions, and analyze your spending
+                with our powerful and easy-to-use dashboard.
+            </p>
+
+            <ul class="features-list">
+                <li><i class="fa-solid fa-check"></i> Real-time balance updates</li>
+                <li><i class="fa-solid fa-check"></i> Expense tracking</li>
+                <li><i class="fa-solid fa-check"></i> Instant notifications</li>
+            </ul>
+
+            <button class="dashboard-btn">Explore Dashboard</button>
+        </div>
+
+        <!-- RIGHT UI PREVIEW -->
+        <div class="dashboard-ui">
+
+            <!-- BALANCE CARD -->
+            <div class="balance-card">
+                <h4>Total Balance</h4>
+                <h2>$45,820.00</h2>
+                <p>+2.5% this month</p>
+            </div>
+
+            <!-- TRANSACTION CARD -->
+            <div class="transaction-card">
+                <h4>Recent Transactions</h4>
+
+                <div class="transaction">
+                    <span>Netflix</span>
+                    <strong>-$12</strong>
+                </div>
+
+                <div class="transaction">
+                    <span>Salary</span>
+                    <strong class="green">+$3,000</strong>
+                </div>
+
+                <div class="transaction">
+                    <span>Shopping</span>
+                    <strong>-$220</strong>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================REVIEW SECTION===============================-->
+
+<section class="testimonials">
+
+    <div class="test-header">
+        <h2>What Our Customers Say</h2>
+        <p>Trusted by thousands of happy users worldwide</p>
+    </div>
+
+    <div class="slider">
+
+        <div class="slide-track">
+
+            <!-- Repeat cards twice for smooth loop -->
+
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                <h3>Rahul Sharma</h3>
+                <div class="stars">★★★★★</div>
+                <p>Amazing banking experience. Very fast and secure!</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg">
+                <h3>Priya Verma</h3>
+                <div class="stars">★★★★★</div>
+                <p>Easy to use and very reliable service.</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/55.jpg">
+                <h3>Amit Patel</h3>
+                <div class="stars">★★★★★</div>
+                <p>Fast transactions and great support team.</p>
+            </div>
+
+            <!-- DUPLICATE FOR LOOP EFFECT -->
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                <h3>Rahul Sharma</h3>
+                <div class="stars">★★★★★</div>
+                <p>Amazing banking experience. Very fast and secure!</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg">
+                <h3>Priya Verma</h3>
+                <div class="stars">★★★★★</div>
+                <p>Easy to use and very reliable service.</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/55.jpg">
+                <h3>Amit Patel</h3>
+                <div class="stars">★★★★★</div>
+                <p>Fast transactions and great support team.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=========================CALL TO ACRION SECTION========================-->
+
+<section class="cta">
+
+    <div class="cta-container">
+
+        <h2>Ready to Take Control of Your Finances?</h2>
+        <p>
+            Join millions of users who trust us for secure and smart banking.
+            Open your account today in just a few minutes.
+        </p>
+
+        <div class="cta-buttons">
+            <button class="cta-btn primary">
+                Open Account
+            </button>
+
+            <button class="cta-btn secondary">
+                Contact Us
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================CONTACT SECTION==============================-->
+
+<section class="contact">
+
+    <div class="contact-header">
+        <h2>Contact Us</h2>
+        <p>We are here to help you anytime. Reach out to us for support or queries.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+
+            <div class="info-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Our Office</h3>
+                <p>BTM Layout, Bangalore</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+91 9966332255</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>info@mybank.com</p>
+            </div>
+
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+
+                <textarea placeholder="Your Message" rows="5"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================LOCATION SECTION=============================-->
+
+<section class="location-section" id="location">
+
+    <div class="location-header">
+        <h2>Our Location</h2>
+        <p>Visit our office or connect with us anytime</p>
+    </div>
+
+    <div class="map-wrapper">
+
+        <!-- UPDATED MAP: WHITEFIELD, BENGALURU -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31104.73879897263!2d77.72145924553114!3d12.965942162153778!2m3!1f0!2f0!3d0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f35d0dfc83%3A0x30cfa512d80115f9!2sWhitefield%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1775986912731!5m2!1sen!2sin"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="map-glass">
+            <h3>MyBank Office</h3>
+            <p>Whitefield, Bengaluru, Karnataka</p>
+
+            <a href="https://www.google.com/maps/place/Whitefield,+Bengaluru" target="_blank">
+                Open in Google Maps →
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================FOOTER SECTION===============================-->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-col">
+            <h2 class="logo">MyBank</h2>
+            <p>
+                MyBank is a Public Limited company established in the year 2021 under section 620-A of 
+                Indian Companies Act 2013. It is secure and modern banking solutions designed to make your financial 
+                life easier.
+            </p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="policy.html">Policy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="account.html">Savings Account</a></li>
+                <li><a href="loan.html">Loans</a></li>
+                <li><a href="card.html">bank-card</a></li>
+                <li><a href="investment.html">Investments</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+                <li><a href="mutual.html">Mutual Fund</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p><i class="fa-solid fa-location-dot"></i> BTM Layout, Bangalore, India</p>
+            <p><i class="fa-solid fa-phone"></i> +91 9966332255</p>
+            <p><i class="fa-solid fa-envelope"></i> info@bank.com</p>
+            <p><i class="fa-solid fa-globe"></i> www.bank.com/</p>
+
+            <!-- SOCIAL ICONS -->
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+        <p>© 2026 Bank. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Premium Light Header -->
+    <div class="top-header">
+        📞 Call here for any enquiry "9966332255" or mail on "info@mybank.com"
+    </div>
+
+<!--=========================NAVBAR SECTION==================================================-->
+
+<nav class="navbar">
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/union-bank-of-india-logo-png-transparent.png" alt="Bank Logo">
+    </div>
+
+    <!-- Menu -->
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown">
+            <a href="service.html">
+                Services <i class="fa fa-chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a href="account.html">
+                        <i class="fa-solid fa-piggy-bank"></i>
+                        Savings Account
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="loan.html">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        Loans
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="card.html">
+                        <i class="fa-solid fa-credit-card"></i>
+                        Bank Cards
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="investment.html">
+                        <i class="fa-solid fa-chart-line"></i>
+                        Investments
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="insurance.html">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Insurance
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="mutual.html">
+                        <i class="fa-solid fa-coins"></i>
+                        Mutual Fund
+                    </a>
+                </li>
+            
+            </ul>
+        </li>
+
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Right Section -->
+    <div class="nav-right">
+
+        <img src="https://flagcdn.com/w40/in.png" class="flag">
+
+        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <select class="country-select">
+            <option>India</option>
+            <option>USA</option>
+            <option>London</option>
+            <option>Spain</option>
+            <option>Russia</option>
+        </select>
+
+        <select class="language-select">
+            <option>English</option>
+            <option>हिन्दी</option>
+            <option>Bangali</option>
+        </select>
+
+        <a href="login.html?role=user" class="login-btn">Login</a>
+
+    </div>
+
+</nav>
+
+<!--=======================ABOUT SECTION===========================================-->
+
+<section class="about">
+
+    <div class="about-container">
+
+        <!-- LEFT IMAGE -->
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1681406610724-4e40ae8489e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJhbmslMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="banking">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="about-content">
+
+            <h2>About MyBank</h2>
+            <p>
+                MyBank is a Public Limited company established in the year 2021 under section 620-A of 
+                Indian Companies Act 2013. MyBank carrying on the business of a non-banking financial 
+                institution (NBFC).The company has the approval from Government Of India. The government has set up 
+                law for the security of the deposit in the company to which the cradle is legally necessary. We provide 
+                our members easy and simple financial solution at their doorstep.
+            </p>
+
+            <!-- FEATURES -->
+            <div class="about-features">
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h4>Secure Banking</h4>
+                    <p>Advanced encryption keeps your money safe.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h4>Fast Transactions</h4>
+                    <p>Instant transfers anytime, anywhere.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h4>Mobile Friendly</h4>
+                    <p>Manage your account on any device.</p>
+                </div>
+
+            </div>
+
+            <!-- BUTTON -->
+            <button class="about-btn">Learn More</button>
+
+        </div>
+    </div>
+
+</section>
+
+<!--==========================LOCATION SECTION=============================-->
+
+<section class="location-section" id="location">
+
+    <div class="location-header">
+        <h2>Our Location</h2>
+        <p>Visit our office or connect with us anytime</p>
+    </div>
+
+    <div class="map-wrapper">
+
+        <!-- UPDATED MAP: WHITEFIELD, BENGALURU -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31104.73879897263!2d77.72145924553114!3d12.965942162153778!2m3!1f0!2f0!3d0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f35d0dfc83%3A0x30cfa512d80115f9!2sWhitefield%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1775986912731!5m2!1sen!2sin"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="map-glass">
+            <h3>MyBank Office</h3>
+            <p>Whitefield, Bengaluru, Karnataka</p>
+
+            <a href="https://www.google.com/maps/place/Whitefield,+Bengaluru" target="_blank">
+                Open in Google Maps →
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================FOOTER SECTION===============================-->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-col">
+            <h2 class="logo">MyBank</h2>
+            <p>
+                MyBank is a Public Limited company established in the year 2021 under section 620-A of 
+                Indian Companies Act 2013. It is secure and modern banking solutions designed to make your financial 
+                life easier.
+            </p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="policy.html">Policy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="account.html">Savings Account</a></li>
+                <li><a href="loan.html">Loans</a></li>
+                <li><a href="card.html">bank-card</a></li>
+                <li><a href="investment.html">Investments</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+                <li><a href="mutual.html">Mutual Fund</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p><i class="fa-solid fa-location-dot"></i> BTM Layout, Bangalore, India</p>
+            <p><i class="fa-solid fa-phone"></i> +91 9966332255</p>
+            <p><i class="fa-solid fa-envelope"></i> info@bank.com</p>
+            <p><i class="fa-solid fa-globe"></i> www.bank.com/</p>
+
+            <!-- SOCIAL ICONS -->
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+        <p>© 2026 MyBank. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
